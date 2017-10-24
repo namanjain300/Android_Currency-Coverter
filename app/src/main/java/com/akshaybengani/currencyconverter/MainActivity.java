@@ -8,9 +8,9 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void convert(View view)
+    public void convert(View view)      //Convert funtion used to convert rs to $ 
     {
-        EditText valueDoller;
+        EditText valueDoller;$
         double amountRs,amountDoller;
         valueDoller=(EditText) findViewById(R.id.doller);
         amountDoller=Double.parseDouble(valueDoller.getText().toString());
